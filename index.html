@@ -1,18 +1,23 @@
-<!doctype HTML>
+<!DOCTYPE HTML>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css">
-    
+
     <title>Welcome to Will's Family</title>
 </head>
 
 <body>
+    <video playinline autoplay loop poster="video/Cloudy-water.jpg" class="fillWidth">
+        <source src="video/Cloudy-water.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        <source src="video/Cloudy-water.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+    </video>
     <header>
-        <h1>Hello I'm Will</h1>
-        <h2>How can I solve your problem?</h2>
+        <h1>Hello I'm Will
+            <span>How can I solve your problem?</span>
+       </h1>
         <nav class="main-nav">
             <ul>
                 <li class="main-nav-link"><a href="#intro">About me</a></li>
@@ -22,7 +27,8 @@
             </ul>
         </nav>
 
-        <img class="headshot" src="http://media.istockphoto.com/photos/male-silhouette-as-avatar-profile-picture-picture-id519078727?k=6&m=519078727&s=612x612&w=0&h=ptX9HZCoDQh3i5ZjC_j3HltiaeeJK-HfHrCa35Chx3M=" alt="headshot">
+        <img class="headshot" src="http://media.istockphoto.com/photos/male-silhouette-as-avatar-profile-picture-picture-id519078727?k=6&m=519078727&s=612x612&w=0&h=ptX9HZCoDQh3i5ZjC_j3HltiaeeJK-HfHrCa35Chx3M="
+            alt="headshot">
 
         <p class="about" id="about">
             Hi, I'm Will McKelvey, I'm a little more then your ordinary full-stack web developer living in Detroit, Michigan. I’ve learned
@@ -40,20 +46,7 @@
             </ul>
         </nav>
     </header>
-
-    <div class="homepage-hero-module">
-        <div class="video-container">
-            <div class="filter"></div>
-            <video autoplay loop class="fillWidth">
-                <source src="video/Cloudy-water.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-                <source src="video/Cloudy-water.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-            </video>
-            <div class="poster hidden">
-                <img src="video/Cloudy-water.jpg" alt="">
-            </div>
-        </div>
-    </div>
-
+    <main>
     <section class="work" id="work">
         <h2>How I help my friends and family</h2>
         <section class="belp">
@@ -197,6 +190,7 @@
             <input type="submit" value="Send message">
         </form>
     </section>
+    </main>
     <section class="contactInfo">
         <div class="wow fadeInUp container-fluid">
             <div class="col-md-8 col-md-offset-2">
