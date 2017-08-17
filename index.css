@@ -55,12 +55,22 @@ main {
   padding: 1rem;
 }
 
- .belp, .notehero {
-  display: inline-block;
-  border-color: 5px solid white;
+img {
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+  vertical-align: top;
 }
 
-img {
-  width: 600px;
-  height: auto;
+section .belp, .notehero {
+  width: 100%;
+  max-width: 450px;
+  background-color: rgba(227, 138, 45, 0.3);
 }
+
+section {
+  border: 1px solid orange;
+  display: inline-block;
+  padding: 8px;
+}*/
+
